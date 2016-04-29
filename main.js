@@ -29,5 +29,10 @@ var list = indices.toString();
 
 if(list.length > 0)
 {
-	
+	var newSent = sentence.replace(sentence[indices[1]], 'w');
+	console.log(newSent);
+}
+else
+{
+	console.log('we did not find any A\'s in this statement');
 }
